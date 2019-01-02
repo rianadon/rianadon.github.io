@@ -1,0 +1,41 @@
+body {
+    font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: #333;
+    padding: 0.5em 0.5em 0.75em;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.projects {
+    list-style-type: none;
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.projects > li {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+li > a {
+    width: 10em;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 30em) {
+    li > a {
+        width: 6em;
+    }
+}
